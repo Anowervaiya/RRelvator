@@ -7,7 +7,7 @@ import { MdOutlineEmergencyShare, MdPublishedWithChanges, MdTrackChanges } from 
 
 function Service() {
   return (
-    <div className="mt-32 container mx-auto">
+    <div className="mt-20 container mx-auto">
       <Heading
         Heading={'Services'}
         desc={
@@ -15,8 +15,8 @@ function Service() {
         }
       />
 
-      <div className="grid grid-cols-3 ">
-        <div className=" md:border-b">
+      <div className="grid grid-cols-3">
+        <div className=" sm:border-b">
           <ServiceCard
             Icon={<TbSettingsSpark />}
             Heading={'Annual Maintenance'}
@@ -25,7 +25,7 @@ function Service() {
             }
           ></ServiceCard>
         </div>
-        <div className="md:border-r md:border-b  md:border-l ">
+        <div className="sm:border-r sm:border-b  sm:border-l ">
           <ServiceCard
             Icon={<RiInstallLine />}
             Heading={'Installation'}
@@ -34,7 +34,7 @@ function Service() {
             }
           ></ServiceCard>
         </div>
-        <div className="md:border-b">
+        <div className="sm:border-b">
           <ServiceCard
             Icon={<MdTrackChanges />}
             Heading={'Modification'}
@@ -50,7 +50,7 @@ function Service() {
             'We provide expert elevator repair and maintenance services, ensuring smooth operation, safety, and reliability. Our team handles repairs, upgrades, and routine maintenance for all elevator models.'
           }
         ></ServiceCard>
-        <div className="md:border-l md:border-r">
+        <div className="sm:border-l sm:border-r">
           <ServiceCard
             Icon={<TbAerialLift />}
             Heading={'Elevator Modernization'}

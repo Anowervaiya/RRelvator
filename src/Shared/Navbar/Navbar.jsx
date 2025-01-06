@@ -35,21 +35,39 @@ const Navbar = () => {
       <Link
         to={'/'}
         onClick={handleToogle}
-        className="p-2 hover:text-orange-500 px-4 group"
+        className="p-2 hover:text-blue-500 px-4 group"
         href="#"
       >
         Home
-        <div className="bg-orange-500 h-[2px] w-0 group-hover:w-full transition-all duration-500"></div>
+        <div className="bg-blue-500 h-[2px] w-0 group-hover:w-full transition-all duration-500"></div>
       </Link>
 
       <Link
-        to={'all-scholarship'}
+        to={'all-Products'}
         onClick={handleToogle}
-        className="p-2  hover:text-orange-500 px-4 group"
+        className="p-2  hover:text-blue-500 px-4 group"
         href="#"
       >
-        All Scholarship
-        <div className="bg-orange-500 h-[2px] w-0 group-hover:w-full transition-all duration-500"></div>
+        All Products
+        <div className="bg-blue-500 h-[2px] w-0 group-hover:w-full transition-all duration-500"></div>
+      </Link>
+      <Link
+        to={'About'}
+        onClick={handleToogle}
+        className="p-2  hover:text-blue-500 px-4 group"
+        href="#"
+      >
+        About
+        <div className="bg-blue-500 h-[2px] w-0 group-hover:w-full transition-all duration-500"></div>
+      </Link>
+      <Link
+        to={'Contact'}
+        onClick={handleToogle}
+        className="p-2  hover:text-blue-500 px-4 group"
+        href="#"
+      >
+        Contact
+        <div className="bg-blue-500 h-[2px] w-0 group-hover:w-full transition-all duration-500"></div>
       </Link>
     </>
   );

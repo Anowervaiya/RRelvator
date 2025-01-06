@@ -6,7 +6,7 @@ import { GrUserExpert } from 'react-icons/gr';
 import { TfiSupport } from 'react-icons/tfi';
 function WhyChooseUs() {
   return (
-    <div className="container mx-auto">
+    <div className="container mx-auto mt-28">
       {' '}
       <Heading
         Heading={'Why Choose Us'}
@@ -35,15 +35,17 @@ function WhyChooseUs() {
             </p>
           </div>
         </div>
-        <div class="card card3">
-          <TfiSupport className="text-5xl text-blue-800" />
-          <h3 class="description-title">24/7 Emergency Support</h3>
+        <div className='flex w-full  '>
+          <div class=" card3 w-full md:w-1/2 md:mx-auto">
+            <TfiSupport className="text-5xl text-blue-800" />
+            <h3 class="description-title">24/7 Emergency Support</h3>
 
-          <p class="description text-sm ">
-            We offer round-the-clock emergency repair services, ensuring your
-            elevator is quickly fixed and operational, prioritizing the safety
-            and convenience of your passengers.
-          </p>
+            <p class="description text-sm ">
+              We offer round-the-clock emergency repair services, ensuring your
+              elevator is quickly fixed and operational, prioritizing the safety
+              and convenience of your passengers.
+            </p>
+          </div>
         </div>
       </section>
     </div>
