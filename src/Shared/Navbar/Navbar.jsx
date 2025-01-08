@@ -13,7 +13,7 @@ const Navbar = () => {
 
   // Function to check the scroll position
   const handleScroll = () => {
-    if (window.scrollY > 400 ) {
+    if (window.scrollY > 100 ) {
       setIsScrolled(true); // If scrolled more than 20px, change state
     } else {
       setIsScrolled(false); // Reset state if scrolled back to the top
@@ -76,8 +76,10 @@ const Navbar = () => {
     <>
       <div
         className={`navbar md:px-8 fixed z-50 ${
-          isScrolled ? 'bg-white text-black shadow-md' : 'bg-black text-white bg-opacity-20'
-        }  transition-all duration-700`}
+          isScrolled
+            ? ' bg-white text-black shadow-md '
+            : ' text-white '
+        }  transition-all duration-700 border-b`}
       >
         <div className="navbar-start ">
           <div className="dropdown">

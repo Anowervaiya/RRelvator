@@ -14,7 +14,7 @@ function Contact() {
       ></Heading>
       <div className="flex flex-col lg:flex-row gap-8">
         <div className="flex-1">
-          <div className="*:bg-gray-100 grid grid-cols-2 *:space-y-1 *:px-6 *:py-8 text-center *:border-gray-300">
+          <div className="*:bg-gray-50  grid grid-cols-2 *:space-y-1 *:px-6 *:py-8 text-center *:border-gray-300">
             <div className="border-r border-b ">
               <span>
                 <LuMapPin className="text-3xl text-blue-800 mx-auto" />
